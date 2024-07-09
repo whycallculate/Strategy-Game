@@ -1,0 +1,242 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b42158979f8cc34bbb659a55923c088, type: 3}
+  m_Name: Compound
+  m_EditorClassIdentifier: 
+  SehirContainerArray:
+  - sehirPhoto: {fileID: 21300000, guid: 70dcb918d7936b849aa131abdf74214e, type: 3}
+    name: Gerzk
+    hamMaddeUrunleri: 21
+    savasEkipmanlari: 4
+    IsEkipmanlari: 44
+    konut: 5
+    yapiMalzemeleri: 78
+    gidaUrunleri: 89
+  - sehirPhoto: {fileID: 21300000, guid: 70dcb918d7936b849aa131abdf74214e, type: 3}
+    name: Retes
+    hamMaddeUrunleri: 98
+    savasEkipmanlari: 55
+    IsEkipmanlari: 4
+    konut: 43
+    yapiMalzemeleri: 5
+    gidaUrunleri: 66
+  - sehirPhoto: {fileID: 21300000, guid: 70dcb918d7936b849aa131abdf74214e, type: 3}
+    name: Rasef
+    hamMaddeUrunleri: 28
+    savasEkipmanlari: 22
+    IsEkipmanlari: 33
+    konut: 44
+    yapiMalzemeleri: 51
+    gidaUrunleri: 22
+  - sehirPhoto: {fileID: 21300000, guid: 70dcb918d7936b849aa131abdf74214e, type: 3}
+    name: Marad
+    hamMaddeUrunleri: 23
+    savasEkipmanlari: 3
+    IsEkipmanlari: 44
+    konut: 55
+    yapiMalzemeleri: 55
+    gidaUrunleri: 66
+  - sehirPhoto: {fileID: 21300000, guid: 70dcb918d7936b849aa131abdf74214e, type: 3}
+    name: Kralex
+    hamMaddeUrunleri: 23
+    savasEkipmanlari: 2
+    IsEkipmanlari: 12
+    konut: 3
+    yapiMalzemeleri: 55
+    gidaUrunleri: 4
+  - sehirPhoto: {fileID: 21300000, guid: 70dcb918d7936b849aa131abdf74214e, type: 3}
+    name: Oeread
+    hamMaddeUrunleri: 22
+    savasEkipmanlari: 23
+    IsEkipmanlari: 12
+    konut: 45
+    yapiMalzemeleri: 6
+    gidaUrunleri: 67
+  - sehirPhoto: {fileID: 21300000, guid: 70dcb918d7936b849aa131abdf74214e, type: 3}
+    name: Aryemuh
+    hamMaddeUrunleri: 23
+    savasEkipmanlari: 5
+    IsEkipmanlari: 12
+    konut: 7
+    yapiMalzemeleri: 9
+    gidaUrunleri: 8
+  KoyContainerArray:
+  - name: Deref
+    koyPhoto: {fileID: 21300000, guid: 16085bea624c3aa4b88e07b1f1276440, type: 3}
+    hamMaddeUrunleri: 11
+    savasEkipmanlari: 2
+    IsEkipmanlari: 23
+    konut: 66
+    yapiMalzemeleri: 55
+    gidaUrunleri: 44
+  - name: Greesesd
+    koyPhoto: {fileID: 21300000, guid: 16085bea624c3aa4b88e07b1f1276440, type: 3}
+    hamMaddeUrunleri: 56
+    savasEkipmanlari: 22
+    IsEkipmanlari: 29
+    konut: 23
+    yapiMalzemeleri: 54
+    gidaUrunleri: 95
+  - name: Nenfed
+    koyPhoto: {fileID: 21300000, guid: 16085bea624c3aa4b88e07b1f1276440, type: 3}
+    hamMaddeUrunleri: 3
+    savasEkipmanlari: 44
+    IsEkipmanlari: 66
+    konut: 5
+    yapiMalzemeleri: 23
+    gidaUrunleri: 46
+  - name: Tersed
+    koyPhoto: {fileID: 21300000, guid: 16085bea624c3aa4b88e07b1f1276440, type: 3}
+    hamMaddeUrunleri: 19
+    savasEkipmanlari: 95
+    IsEkipmanlari: 29
+    konut: 45
+    yapiMalzemeleri: 56
+    gidaUrunleri: 74
+  - name: Royileg
+    koyPhoto: {fileID: 21300000, guid: 16085bea624c3aa4b88e07b1f1276440, type: 3}
+    hamMaddeUrunleri: 8
+    savasEkipmanlari: 88
+    IsEkipmanlari: 55
+    konut: 3
+    yapiMalzemeleri: 22
+    gidaUrunleri: 1
+  - name: Namyelus
+    koyPhoto: {fileID: 21300000, guid: 16085bea624c3aa4b88e07b1f1276440, type: 3}
+    hamMaddeUrunleri: 9
+    savasEkipmanlari: 98
+    IsEkipmanlari: 9
+    konut: 6
+    yapiMalzemeleri: 35
+    gidaUrunleri: 34
+  - name: Temha
+    koyPhoto: {fileID: 21300000, guid: 16085bea624c3aa4b88e07b1f1276440, type: 3}
+    hamMaddeUrunleri: 8
+    savasEkipmanlari: 99
+    IsEkipmanlari: 8
+    konut: 67
+    yapiMalzemeleri: 4
+    gidaUrunleri: 23
+  UretimAlaniContainerArray:
+  - name: Oeries
+    uretimPhoto: {fileID: 21300000, guid: a807ca0107013da41a5382fc0c2984aa, type: 3}
+    hamMaddeUrunleri: 23
+    savasEkipmanlari: 2
+    IsEkipmanlari: 45
+    konut: 43
+    yapiMalzemeleri: 3
+    gidaUrunleri: 2
+  - name: Areired
+    uretimPhoto: {fileID: 21300000, guid: a807ca0107013da41a5382fc0c2984aa, type: 3}
+    hamMaddeUrunleri: 22
+    savasEkipmanlari: 34
+    IsEkipmanlari: 32
+    konut: 12
+    yapiMalzemeleri: 4
+    gidaUrunleri: 33
+  - name: Ameres
+    uretimPhoto: {fileID: 21300000, guid: a807ca0107013da41a5382fc0c2984aa, type: 3}
+    hamMaddeUrunleri: 56
+    savasEkipmanlari: 54
+    IsEkipmanlari: 3
+    konut: 2
+    yapiMalzemeleri: 1
+    gidaUrunleri: 5
+  - name: Oeresdc
+    uretimPhoto: {fileID: 21300000, guid: a807ca0107013da41a5382fc0c2984aa, type: 3}
+    hamMaddeUrunleri: 2
+    savasEkipmanlari: 55
+    IsEkipmanlari: 3
+    konut: 6
+    yapiMalzemeleri: 54
+    gidaUrunleri: 44
+  - name: Piras
+    uretimPhoto: {fileID: 21300000, guid: a807ca0107013da41a5382fc0c2984aa, type: 3}
+    hamMaddeUrunleri: 32
+    savasEkipmanlari: 23
+    IsEkipmanlari: 5
+    konut: 4
+    yapiMalzemeleri: 6
+    gidaUrunleri: 5
+  - name: Savis
+    uretimPhoto: {fileID: 21300000, guid: a807ca0107013da41a5382fc0c2984aa, type: 3}
+    hamMaddeUrunleri: 23
+    savasEkipmanlari: 6
+    IsEkipmanlari: 5
+    konut: 4
+    yapiMalzemeleri: 4
+    gidaUrunleri: 2
+  - name: Geraxcrh
+    uretimPhoto: {fileID: 21300000, guid: a807ca0107013da41a5382fc0c2984aa, type: 3}
+    hamMaddeUrunleri: 21
+    savasEkipmanlari: 1
+    IsEkipmanlari: 32
+    konut: 2
+    yapiMalzemeleri: 2
+    gidaUrunleri: 3
+  KaleContainerArray:
+  - name: Temur
+    kalePhoto: {fileID: 21300000, guid: 6f3126a82656dac449471c5240dac493, type: 3}
+    hamMaddeUrunleri: 23
+    savasEkipmanlari: 23
+    IsEkipmanlari: 63
+    konut: 0
+    yapiMalzemeleri: 2
+    gidaUrunleri: 3
+  - name: Telzse
+    kalePhoto: {fileID: 21300000, guid: 6f3126a82656dac449471c5240dac493, type: 3}
+    hamMaddeUrunleri: 8
+    savasEkipmanlari: 45
+    IsEkipmanlari: 4
+    konut: 0
+    yapiMalzemeleri: 6
+    gidaUrunleri: 99
+  - name: Heers
+    kalePhoto: {fileID: 21300000, guid: 6f3126a82656dac449471c5240dac493, type: 3}
+    hamMaddeUrunleri: 67
+    savasEkipmanlari: 45
+    IsEkipmanlari: 86
+    konut: 0
+    yapiMalzemeleri: 0
+    gidaUrunleri: 0
+  - name: Ceversa
+    kalePhoto: {fileID: 21300000, guid: 6f3126a82656dac449471c5240dac493, type: 3}
+    hamMaddeUrunleri: 2
+    savasEkipmanlari: 84
+    IsEkipmanlari: 3
+    konut: 45
+    yapiMalzemeleri: 6
+    gidaUrunleri: 7
+  - name: Pojki
+    kalePhoto: {fileID: 21300000, guid: 6f3126a82656dac449471c5240dac493, type: 3}
+    hamMaddeUrunleri: 48
+    savasEkipmanlari: 40
+    IsEkipmanlari: 52
+    konut: 12
+    yapiMalzemeleri: 3
+    gidaUrunleri: 2
+  - name: Gers
+    kalePhoto: {fileID: 21300000, guid: 6f3126a82656dac449471c5240dac493, type: 3}
+    hamMaddeUrunleri: 43
+    savasEkipmanlari: 68
+    IsEkipmanlari: 34
+    konut: 4
+    yapiMalzemeleri: 65
+    gidaUrunleri: 21
+  - name: Aeras
+    kalePhoto: {fileID: 21300000, guid: 6f3126a82656dac449471c5240dac493, type: 3}
+    hamMaddeUrunleri: 78
+    savasEkipmanlari: 68
+    IsEkipmanlari: 39
+    konut: 22
+    yapiMalzemeleri: 9
+    gidaUrunleri: 5

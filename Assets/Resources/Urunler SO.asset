@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e20f7d29b264f9041b72c825726671f7, type: 3}
+  m_Name: Urunler SO
+  m_EditorClassIdentifier: 
+  TumUrunlerSO:
+  - name: Hammadde
+    image: {fileID: 21300000, guid: 1fb46228a3bcb5042a763829cc07f9e5, type: 3}
+    SatisDegeri: 1.5
+  - name: Savas
+    image: {fileID: 21300000, guid: 567fdd2e557fefc478f8aaa7ae56fb11, type: 3}
+    SatisDegeri: 4
+  - name: IsEKipman
+    image: {fileID: 21300000, guid: 6858a15e5082cf34b9ee3167e90403d3, type: 3}
+    SatisDegeri: 3
+  - name: YapiMalze
+    image: {fileID: 21300000, guid: f8a9cfc721a20ce409c3d743e9b251bc, type: 3}
+    SatisDegeri: 2
+  - name: GidaUrunleri
+    image: {fileID: 21300000, guid: 1a58749f555f75e48baa41893215b26e, type: 3}
+    SatisDegeri: 1

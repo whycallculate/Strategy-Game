@@ -1,0 +1,171 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 581ec4383acf79845adef9d93910bb42, type: 3}
+  m_Name: BinalarSO
+  m_EditorClassIdentifier: 
+  TumBinaTipleri:
+  - BinaIsmi: Askeri Kisla
+    levelBirMaliyet: 1
+    levelIkiMaliyet: 2
+    levelUcMaliyet: 3
+    levelMaliyet:
+    - nextLevel: Level 1 Maliyet
+      maliyetHamMaddeUrunleri: 20
+      maliyetsavasEkipmanlari: 20
+      maliyetIsEkipmanlari: 20
+      maliyetyapiMalzemeleri: 20
+      maliyetgidaUrunleri: 20
+      maliyetMoney: 20
+    - nextLevel: Level 2 Maliyet
+      maliyetHamMaddeUrunleri: 40
+      maliyetsavasEkipmanlari: 40
+      maliyetIsEkipmanlari: 40
+      maliyetyapiMalzemeleri: 40
+      maliyetgidaUrunleri: 40
+      maliyetMoney: 40
+    - nextLevel: Level 3 Maliyet
+      maliyetHamMaddeUrunleri: 80
+      maliyetsavasEkipmanlari: 80
+      maliyetIsEkipmanlari: 80
+      maliyetyapiMalzemeleri: 80
+      maliyetgidaUrunleri: 80
+      maliyetMoney: 80
+  - BinaIsmi: Demirci
+    levelBirMaliyet: 0
+    levelIkiMaliyet: 1
+    levelUcMaliyet: 2
+    levelMaliyet:
+    - nextLevel: Level 1 Maliyet
+      maliyetHamMaddeUrunleri: 23
+      maliyetsavasEkipmanlari: 23
+      maliyetIsEkipmanlari: 23
+      maliyetyapiMalzemeleri: 23
+      maliyetgidaUrunleri: 23
+      maliyetMoney: 23
+    - nextLevel: Level 2 Maliyet
+      maliyetHamMaddeUrunleri: 44
+      maliyetsavasEkipmanlari: 44
+      maliyetIsEkipmanlari: 44
+      maliyetyapiMalzemeleri: 44
+      maliyetgidaUrunleri: 44
+      maliyetMoney: 44
+    - nextLevel: Level 3 Maliyet
+      maliyetHamMaddeUrunleri: 4444
+      maliyetsavasEkipmanlari: 44
+      maliyetIsEkipmanlari: 44
+      maliyetyapiMalzemeleri: 44
+      maliyetgidaUrunleri: 44
+      maliyetMoney: 44
+  - BinaIsmi: Konut
+    levelBirMaliyet: 0
+    levelIkiMaliyet: 1
+    levelUcMaliyet: 2
+    levelMaliyet:
+    - nextLevel: Level 1 Maliyet
+      maliyetHamMaddeUrunleri: 24
+      maliyetsavasEkipmanlari: 24
+      maliyetIsEkipmanlari: 24
+      maliyetyapiMalzemeleri: 24
+      maliyetgidaUrunleri: 24
+      maliyetMoney: 24
+    - nextLevel: Level 2 Maliyet
+      maliyetHamMaddeUrunleri: 0
+      maliyetsavasEkipmanlari: 0
+      maliyetIsEkipmanlari: 0
+      maliyetyapiMalzemeleri: 0
+      maliyetgidaUrunleri: 0
+      maliyetMoney: 0
+    - nextLevel: Level 3 Maliyet
+      maliyetHamMaddeUrunleri: 0
+      maliyetsavasEkipmanlari: 0
+      maliyetIsEkipmanlari: 0
+      maliyetyapiMalzemeleri: 0
+      maliyetgidaUrunleri: 0
+      maliyetMoney: 0
+  - BinaIsmi: PazarYeri
+    levelBirMaliyet: 0
+    levelIkiMaliyet: 1
+    levelUcMaliyet: 2
+    levelMaliyet:
+    - nextLevel: Level 1 Maliyet
+      maliyetHamMaddeUrunleri: 33
+      maliyetsavasEkipmanlari: 33
+      maliyetIsEkipmanlari: 33
+      maliyetyapiMalzemeleri: 33
+      maliyetgidaUrunleri: 33
+      maliyetMoney: 200
+    - nextLevel: Level 2Maliyet
+      maliyetHamMaddeUrunleri: 0
+      maliyetsavasEkipmanlari: 0
+      maliyetIsEkipmanlari: 0
+      maliyetyapiMalzemeleri: 0
+      maliyetgidaUrunleri: 0
+      maliyetMoney: 0
+    - nextLevel: Level 3 Maliyet
+      maliyetHamMaddeUrunleri: 0
+      maliyetsavasEkipmanlari: 0
+      maliyetIsEkipmanlari: 0
+      maliyetyapiMalzemeleri: 0
+      maliyetgidaUrunleri: 0
+      maliyetMoney: 0
+  - BinaIsmi: 'Firin '
+    levelBirMaliyet: 0
+    levelIkiMaliyet: 1
+    levelUcMaliyet: 2
+    levelMaliyet:
+    - nextLevel: Level 1 Maliyet
+      maliyetHamMaddeUrunleri: 77
+      maliyetsavasEkipmanlari: 7
+      maliyetIsEkipmanlari: 777
+      maliyetyapiMalzemeleri: 7
+      maliyetgidaUrunleri: 7
+      maliyetMoney: 7
+    - nextLevel: Level 2 Maliyet
+      maliyetHamMaddeUrunleri: 0
+      maliyetsavasEkipmanlari: 0
+      maliyetIsEkipmanlari: 0
+      maliyetyapiMalzemeleri: 0
+      maliyetgidaUrunleri: 0
+      maliyetMoney: 0
+    - nextLevel: Level 3 Maliyet
+      maliyetHamMaddeUrunleri: 0
+      maliyetsavasEkipmanlari: 0
+      maliyetIsEkipmanlari: 0
+      maliyetyapiMalzemeleri: 0
+      maliyetgidaUrunleri: 0
+      maliyetMoney: 0
+  - BinaIsmi: Uretim Seviyesi
+    levelBirMaliyet: 0
+    levelIkiMaliyet: 1
+    levelUcMaliyet: 2
+    levelMaliyet:
+    - nextLevel: Level 1 Maliyet
+      maliyetHamMaddeUrunleri: 8
+      maliyetsavasEkipmanlari: 8
+      maliyetIsEkipmanlari: 8
+      maliyetyapiMalzemeleri: 8
+      maliyetgidaUrunleri: 8
+      maliyetMoney: 8
+    - nextLevel: Level 2 Maliyet
+      maliyetHamMaddeUrunleri: 0
+      maliyetsavasEkipmanlari: 0
+      maliyetIsEkipmanlari: 0
+      maliyetyapiMalzemeleri: 0
+      maliyetgidaUrunleri: 0
+      maliyetMoney: 0
+    - nextLevel: Level 3 Maliyet
+      maliyetHamMaddeUrunleri: 0
+      maliyetsavasEkipmanlari: 0
+      maliyetIsEkipmanlari: 0
+      maliyetyapiMalzemeleri: 0
+      maliyetgidaUrunleri: 0
+      maliyetMoney: 0
