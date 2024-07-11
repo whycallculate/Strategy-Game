@@ -39,6 +39,7 @@ public class SaveManager : MonoBehaviour
         string playerMoneyData = JsonUtility.ToJson(GameManager.Instance.moneyCount);
         string filePath = Application.persistentDataPath + "/MoneyData.json";
         System.IO.File.WriteAllText(filePath, playerMoneyData);
+        Debug.Log(filePath);
     }
 
     private void DaySave()
