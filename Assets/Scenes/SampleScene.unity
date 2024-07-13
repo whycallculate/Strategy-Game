@@ -24643,7 +24643,7 @@ Camera:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingPath: -1
-  m_TargetTexture: {fileID: 0}
+  m_TargetTexture: {fileID: 8400000, guid: ad2eac90cc156eb4a83dff196f45e863, type: 2}
   m_TargetDisplay: 0
   m_TargetEye: 3
   m_HDR: 1
@@ -24661,13 +24661,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.48783913, y: 0.04472248, z: -0.024334075, w: 0.87144756}
-  m_LocalPosition: {x: -378.18063, y: 49.266823, z: -41.394417}
+  m_LocalRotation: {x: 0.424518, y: -0.02417773, z: 0.025992235, w: 0.90472335}
+  m_LocalPosition: {x: -198.48, y: 45.8, z: 37.7}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1787706877}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -0.143}
+  m_LocalEulerAnglesHint: {x: 50.3, y: -1.945, z: 2.378}
 --- !u!114 &963194229
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31782,7 +31782,7 @@ MonoBehaviour:
   DirectionLight: {fileID: 705507994}
   DayTime: 24
   dayCounter: 0
-  daySpeed: 3
+  daySpeed: 1
 --- !u!4 &1230508970
 Transform:
   m_ObjectHideFlags: 0
@@ -49797,7 +49797,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1787706873}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -49849,7 +49849,7 @@ Transform:
   m_GameObject: {fileID: 1787706873}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 537.8635, y: 104.04589, z: 86.44564}
+  m_LocalPosition: {x: 337.94696, y: 65.91557, z: -5.186363}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -57557,6 +57557,18 @@ PrefabInstance:
     - target: {fileID: 438959609778028106, guid: 742eba6bd9d4a86408d934667df6ef52, type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 962837783555106032, guid: 742eba6bd9d4a86408d934667df6ef52, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 962837783555106032, guid: 742eba6bd9d4a86408d934667df6ef52, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 962837783555106032, guid: 742eba6bd9d4a86408d934667df6ef52, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 962837783555106032, guid: 742eba6bd9d4a86408d934667df6ef52, type: 3}
       propertyPath: m_LocalPosition.x

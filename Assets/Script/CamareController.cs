@@ -6,7 +6,7 @@ using UnityEngine.EventSystems;
 
 public class CamareController : MonoBehaviour
 {
-    public float camSpeed = 10f;
+    public float camSpeed = 28f;
     public GameObject cubeController;
     private EventSystem _eventSystem;
     public Transform UIDragAreas;
